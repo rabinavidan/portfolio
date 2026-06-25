@@ -6,8 +6,8 @@
 }
 
 :root {
-  --bg: #0a0e1a;
-  --bg-alt: #0a0e1a;
+  --bg: #050810;
+  --bg-alt: #050810;
   --surface: #1a2233;
   --surface-hover: #1f2d44;
   --border: #1e2d42;
@@ -130,7 +130,7 @@ ul {
 .hero {
   padding: 140px 0 100px;
   background:
-    linear-gradient(to right, rgba(10, 14, 26, 0.92) 45%, rgba(10, 14, 26, 0.55) 100%),
+    linear-gradient(to right, rgba(5, 8, 16, 0.95) 45%, rgba(5, 8, 16, 0.5) 100%),
     url('./banner.png') center right / cover no-repeat;
   border-bottom: 1px solid var(--border);
   position: relative;
