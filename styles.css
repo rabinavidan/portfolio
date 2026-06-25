@@ -6,8 +6,8 @@
 }
 
 :root {
-  --bg: #0a0e1a;
-  --bg-alt: #0d1117;
+  --bg: #070b14;
+  --bg-alt: #0a0e1a;
   --surface: #1a2233;
   --surface-hover: #1f2d44;
   --border: #1e2d42;
@@ -464,7 +464,7 @@ ul {
   height: 12px;
   border-radius: 50%;
   background: var(--accent);
-  border: 2px solid var(--bg-alt);
+  border: 2px solid var(--bg);
 }
 
 .experience__header {
