@@ -131,7 +131,7 @@ ul {
   padding: 140px 0 100px;
   background:
     linear-gradient(to right, rgba(10, 14, 26, 0.92) 45%, rgba(10, 14, 26, 0.55) 100%),
-    url('./assets/banner.png') center right / cover no-repeat;
+    url('./banner.png') center right / cover no-repeat;
   border-bottom: 1px solid var(--border);
   position: relative;
   overflow: hidden;
