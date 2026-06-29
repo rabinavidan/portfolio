@@ -153,6 +153,31 @@ ul {
   position: relative;
 }
 
+.hero__layout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+.hero__content {
+  flex: 1;
+  min-width: 0;
+}
+
+.hero__photo-wrap {
+  flex-shrink: 0;
+}
+
+.hero__photo {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--accent);
+  box-shadow: 0 0 40px rgba(59, 130, 246, 0.3);
+}
+
 .hero__badge {
   display: inline-block;
   background: var(--accent-glow);
@@ -626,6 +651,17 @@ ul {
 
   .hero {
     padding: 100px 0 70px;
+  }
+
+  .hero__layout {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 28px;
+  }
+
+  .hero__photo {
+    width: 160px;
+    height: 160px;
   }
 
   .hero__ctas {
