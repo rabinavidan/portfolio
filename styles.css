@@ -783,6 +783,41 @@ ul {
   padding-top: 4px;
 }
 
+.experience__product {
+  font-size: 0.85rem;
+  color: var(--cyan);
+  line-height: 1.7;
+  max-width: 760px;
+  margin-bottom: 12px;
+}
+
+.experience__product strong {
+  color: var(--accent-light);
+}
+
+.experience__bullets {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 760px;
+}
+
+.experience__bullets li {
+  position: relative;
+  padding-left: 18px;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.75;
+}
+
+.experience__bullets li::before {
+  content: '\25B8';
+  position: absolute;
+  left: 0;
+  color: var(--accent-light);
+}
+
 .experience__desc {
   font-size: 0.9rem;
   color: var(--text-muted);
