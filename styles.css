@@ -1005,3 +1005,95 @@ ul {
     font-size: 0.8rem;
   }
 }
+
+/* ===== PRINT / PDF EXPORT ===== */
+@media print {
+  * {
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  html, body {
+    background: #fff !important;
+    color: #111 !important;
+  }
+
+  .nav,
+  .hero__badge,
+  .hero__ctas,
+  .footer {
+    display: none !important;
+  }
+
+  .hero {
+    padding-top: 24px;
+    background: #fff !important;
+  }
+
+  .hero::before {
+    display: none !important;
+  }
+
+  .section {
+    padding: 24px 0;
+  }
+
+  .section--alt {
+    background: #fff !important;
+  }
+
+  .section__title {
+    color: #111 !important;
+    border-bottom-color: #333 !important;
+  }
+
+  a {
+    color: #111 !important;
+    text-decoration: underline;
+  }
+
+  .hero__name,
+  .impact__stat,
+  .impact__label,
+  .expertise__card h3,
+  .project__title,
+  .experience__company,
+  .edu__card h3 {
+    color: #111 !important;
+  }
+
+  .impact__card,
+  .expertise__card,
+  .project__card,
+  .experience__item,
+  .edu__card,
+  .arch-docker-callout,
+  .arch-node,
+  .arch-docker-boundary {
+    background: #fff !important;
+    border: 1px solid #ccc !important;
+    page-break-inside: avoid;
+  }
+
+  .tag {
+    background: #f1f1f1 !important;
+    color: #111 !important;
+    border: 1px solid #ccc !important;
+  }
+
+  .arch-diagram__scroll {
+    overflow: visible !important;
+  }
+
+  .projects__grid,
+  .expertise__grid,
+  .impact__grid {
+    display: block !important;
+  }
+
+  .project__card,
+  .expertise__card,
+  .impact__card {
+    margin-bottom: 16px;
+  }
+}
